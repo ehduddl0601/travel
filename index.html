@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("img/travel.png");
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            font-family: 'Alatsi', sans-serif;
+        }
+        .main, .sub, .sub2, .sub3{
+            width: 1200px;
+            height: 650px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-sizing: border-box;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            box-shadow: 2px 5px 10px #555;
+        }
+        .left{
+            width: 600px;
+            height: 650px;
+            text-align: center;
+            float: left;
+            /* outline: 2px solid blue; */
+            margin-top: 120px;
+        }
+        .left h1{
+            font-weight: 400;
+            font-size: 100px;
+            letter-spacing: 10px;
+            line-height: 1em;
+            color: #005b77;
+            margin-bottom: 50px;
+        }
+        .left span{
+            font-size: 50px;
+            display: block;
+            line-height: 1em;
+            margin-top: 8px;
+            letter-spacing: 10px;
+        }
+        .left p{
+            font-size: 24px;
+            margin-bottom: 60px;
+            color: #f77016;
+            letter-spacing: 3px;
+        }
+        .left a{
+            display: inline-block;
+            width: 320px;
+            height: 60px;
+            font-size: 32px;
+            text-decoration: none;
+            color: #027a9d;
+            border: 3px solid #027a9d;
+            line-height: 60px;
+            border-radius: 50px;
+        }
+        .left a:hover{
+            background-color: #027a9d;
+            color: white;
+        }
+        .right{
+            width: 600px;
+            height: 650px;
+            background-color: #ccc;
+            float: right;
+            background-image: url("img/guam.jpg");
+            background-position: -200px -100px;
+        }
+        .sub .left h1{
+            color: rgb(245, 53, 124);
+        }
+        .sub .left p{
+            color: #E86A58;
+        }
+        .sub .left a{
+            color: #F5357C;
+            border: 3px solid #F5357C;
+        }
+        .sub .left a:hover{
+            background-color: #F5357C;
+            color: white;
+        }
+        .sub .right, .sub3 .right{
+            float: left;
+        }
+        .sub .left, .sub3 .left{
+            float: right
+        }
+        .sub .right{
+            background-image: url("img/bali.jpg");
+        }
+        .sub2 .left h1{
+            color: #bad410;
+        }
+        .sub2 .left p{
+            color: #E85887;
+        }
+        .sub2 .left a{
+            color: #bad410;
+            border: 3px solid #bad410;
+        }
+        .sub2 .left a:hover{
+            background-color: #bad410;
+            color: white;
+        }
+        .sub2 .right{
+            background-image: url("img/hawaii.jpg");
+        }
+        .sub3 .left h1{
+            color: #20948b;
+        }
+        .sub3 .left p{
+            color: #FFA16E;
+        }
+        .sub3 .left a{
+            color: #20948b;
+            border: 3px solid #20948b;
+        }
+        .sub3 .left a:hover{
+            background-color: #20948b;
+            color: white;
+        }
+        .sub3 .right{
+            background-image: url("img/cebu.jpg");
+            background-repeat: no-repeat;
+            background-position: -300px -150px;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="bg1">
+            <div class="left">
+                <h1>GUAM<span>&nbsp;TRAVEL</span></h1>
+                <p>
+                    a touch of the exotic places <br>
+                    now within your reach
+                </p>
+                <a href="https://www.visitguam.com/" target="_blank">Plan Your Trip</a>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </section>
+    <section class="sub">
+        <div class="bg1">
+            <div class="left">
+                <h1>BALI<span>&nbsp;TRAVEL</span></h1>
+                <p>
+                    a touch of the exotic places <br>
+                    now within your reach
+                </p>
+                <a href="https://www.bali.com/" target="_blank">Plan Your Trip</a>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </section>
+    <section class="sub2">
+        <div class="bg1">
+            <div class="left">
+                <h1>HAWAII<span>&nbsp;TRAVEL</span></h1>
+                <p>
+                    a touch of the exotic places <br>
+                    now within your reach
+                </p>
+                <a href="https://www.gohawaii.com/" target="_blank">Plan Your Trip</a>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </section>
+    <section class="sub3">
+        <div class="bg1">
+            <div class="left">
+                <h1>CEBU<span>&nbsp;TRAVEL</span></h1>
+                <p>
+                    a touch of the exotic places <br>
+                    now within your reach
+                </p>
+                <a href="https://www.tripadvisor.co.kr/Tourism-g298460-Cebu_City_Cebu_Island_Visayas-Vacations.html" target="_blank">Plan Your Trip</a>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </section>
+</body>
+</html>
